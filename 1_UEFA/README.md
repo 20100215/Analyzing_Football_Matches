@@ -13,3 +13,6 @@ Tasks:
 - Gain insights into the statistics of the European championships
 
 Inspired from the code along from DataCamp: [https://www.linkedin.com/events/7214981149763252224/](https://www.linkedin.com/events/7214981149763252224/)
+
+Snapshot of the Wikipedia data source upon execution of this project:
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/3c55bf4a-a018-4206-a511-ff1bfce216ac)
