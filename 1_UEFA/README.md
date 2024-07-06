@@ -5,7 +5,7 @@ Data sources:
 - [Records and Statistics - Wikipedia](https://en.wikipedia.org/wiki/UEFA_European_Championship_records_and_statistics)
 - [Football - Soccer - UEFA EURO, 1960-2024 - Kaggle](https://www.kaggle.com/datasets/piterfm/football-soccer-uefa-euro-1960-2024)
 
-Tasks:
+Tasks Summary:
 
 - Load data from different sources
 - Clean and prepare data for analysis
@@ -13,3 +13,11 @@ Tasks:
 - Gain insights into the statistics of the European championships
 
 Inspired from the code along from DataCamp: [https://www.linkedin.com/events/7214981149763252224/](https://www.linkedin.com/events/7214981149763252224/)
+
+Steps executed:
+
+1. Import data from Web
+    - Copy the given Wikipedia URL
+    - Select the tables: Ranking of teams by number of appearances, debut of national teams, overall team records, hosts, results of host nations
+2. Cleaning the tables
+    - (To be added)
