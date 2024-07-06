@@ -45,3 +45,7 @@ Steps executed:
     - Relationships:
         - Add a 1:1 relationship between Overall team records[team] and Hosts[nation]
         - Add a 1:* relationship between Hosts[nation] and Result of host nations[Host nation]
+4. Table view
+    - Overall team records
+        - Add a win rate column as percentage
+        - Add games per tournament and wins per tournament with 2 decimal places
