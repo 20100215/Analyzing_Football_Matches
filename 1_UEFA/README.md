@@ -23,5 +23,25 @@ Steps executed:
 1. Import data from Web
     - Copy the given Wikipedia URL
     - Select the tables: Ranking of teams by number of appearances, debut of national teams, overall team records, hosts, results of host nations
-2. Cleaning the tables
-    - (To be added)
+2. Cleaning the tables (Power Query Editor)
+    - Ranking of teams
+        - Remove the [ ] after country names
+        - Split best result by delimiter (
+        - Remove ) in the last column
+    - Debut of national teams
+        - Use first row as headers
+        - Rename debuting_teams columns (originally a splitted column)
+        - Remove top row
+    - Overall team records
+        - Use first row as headers
+        - Remove the [ ] after country names
+    - Hosts
+        - Fill down in first column
+        - Remove the [ ] after country names and years
+    - Results in host nations
+        - Fill down in first column
+        - Filter out years 2024, 2028, and 2032
+3. Data modelling
+    - Relationships:
+        - Add a 1:1 relationship between Overall team records[team] and Hosts[nation]
+        - Add a 1:* relationship between Hosts[nation] and Result of host nations[Host nation]
