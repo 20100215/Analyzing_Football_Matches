@@ -28,6 +28,7 @@ Steps executed:
         - Remove the [ ] after country names
         - Split best result by delimiter (
         - Remove ) in the last column
+        - Change Most Recent and Debut column to text instead of number
     - Debut of national teams
         - Use first row as headers
         - Rename debuting_teams columns (originally a splitted column)
@@ -44,8 +45,21 @@ Steps executed:
 3. Data modelling
     - Relationships:
         - Add a 1:1 relationship between Overall team records[team] and Hosts[nation]
-        - Add a 1:* relationship between Hosts[nation] and Result of host nations[Host nation]
+        - Add a 1:* relationship between Overall team records[team] and Result of host nations[Host nation]
 4. Table view
     - Overall team records
         - Add a win rate column as percentage
         - Add games per tournament and wins per tournament with 2 decimal places
+        - Add goals scored per game and goals conceded per game
+5. Data visualization
+    - Goals scored, conceded per game, and win rate by team - line and clustered column chart with secondary y-axis enabled
+    - Number of tournament participations with data labels. Apply top 10 filtering based on sum of Part.
+    - Cards for sum of wins, sum of tournament participations and games played
+    - Cards for first debut, most recent appearance, and team best result
+    - Slicer for debut years and best results without blank. Edit interactions to none instead of filter for the other slicers.
+
+Insights:
+    - Teams with smaller win rate show an increasing trend of goals conceded, suggesting that they might lack defensive capabilities, regardless of the number of goals they have scored on their own.
+    - Germany is the most participative team with 14 tournaments, while 7 teams only had 1 participation.
+    - Dashboard is able to summarize cumulative statistics for a team, filtered by team, debut, and best results.
+        
