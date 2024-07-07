@@ -1,5 +1,15 @@
 # Analyzing UEFA Championship
 
+Project snapshots:
+
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/f266eda9-1fce-4f52-b285-65e0ad07204d)
+
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/2ecd64ac-e665-4ac9-bc65-9fdbeabef8e0)
+
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/44c01605-43e1-406b-9bbd-28a550810a9c)
+
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/6d55cded-a38f-4d44-81c0-53ce6b417140)
+
 Data sources:
 
 - [Records and Statistics - Wikipedia](https://en.wikipedia.org/wiki/UEFA_European_Championship_records_and_statistics)
