@@ -36,10 +36,19 @@ Steps executed:
     - `% Host Wins = DIVIDE([Total Host Wins], [Total Tournaments], 0)` - percentage, 1 decimal place
     - `Finals Reached = CALCULATE(DISTINCTCOUNT(team_apperances[key_id]), team_apperances[stage_name] = "Final")` - filters the count of teams appearing in the final stage
 4. Visualizations:
+    - Prepare the following custom visuals:
+        - Sankey 3.4.2.0
+        - Timeline Storyteller ver2.0.5
+        - Box and Whisker Chart by DataScenarios
+        - Enlighten World Flags
     - Cards for total tournaments and host win rate
-    - Clustered column chart for finals appearances
+    - Clustered column chart for finals appearances by team code. Add tooltip for team name.
+    - Box and whisker chart for count of goals per match grouped by year. Sort chart by year ascending
 
 Insights:
     - The total tournaments measure is used as part of the analysis for validating where there is an advantage of the host team. 
     - Total host wins is only 28.6%, suggesting some advantage.
-    - Note that in 1958, it was the only time where there were 3 teams that entered the final round which was played like the "Group stage" mechanic. Here, Brazil won by the most wins in that group round, therefore Brazil was recorded with 7 finals appearances in Wikipedia, contrary to 6 in this dashboard.
+    - Germany had the most number of finals appearances (8), followed by Brazil and Italy (6).
+    - Note that in 1958, it was the only time where there were 4 teams that entered the final round which was played like the "Group stage" mechanic. Here, Brazil won by the most wins in that group round, therefore Brazil was recorded with 7 finals appearances in Wikipedia, contrary to 6 in this dashboard.
+    - Note that due to the data design, goal records are stored row by row in a table, therefore using the goals table for analysis will not reflect matches with 0 goals.
+    - There is a slight decreasing trend of the number of goals scored per match across years in the tournament
