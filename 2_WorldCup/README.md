@@ -2,7 +2,10 @@
 
 Project snapshots:
 
-(To be uploaded)
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/80b1ff82-9668-48c6-a3d4-1d2c42fa4727)
+
+![image](https://github.com/20100215/Analyzing_Football_Matches/assets/84717650/7b1a41e5-2915-4c8b-a048-90cb2eda6985)
+
 
 Data sources:
 
