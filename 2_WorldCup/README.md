@@ -16,7 +16,7 @@ Key Questions:
 
 - Which country scored the most goals?
 - Which country had the most finals appearances?
-- Which ear did teams score the most goals?
+- Which year did teams score the most goals?
 - Is there an advantage for the host country?
 
 Inspired from the code along from DataCamp, with additional twists performed: [https://www.datacamp.com/code-along/live-training-exploring-world-cup-data-power-bi](https://www.datacamp.com/code-along/live-training-exploring-world-cup-data-power-bi)
@@ -59,12 +59,13 @@ Steps executed:
 
 
 Insights:
-    - The total tournaments measure is used as part of the analysis for validating where there is an advantage of the host team. 
-    - Total host wins is only 28.6%, suggesting some advantage.
-    - Germany had the most number of finals appearances (8), followed by Brazil and Italy (6).
-    - Note that in 1958, it was the only time where there were 4 teams that entered the final round which was played like the "Group stage" mechanic. Here, Brazil won by the most wins in that group round, therefore Brazil was recorded with 7 finals appearances in Wikipedia, contrary to 6 in this dashboard.
-    - Note that due to the data design, goal records are stored row by row in a table, therefore using the goals table for analysis will not reflect matches with 0 goals.
-    - There is a slight decreasing trend of the number of goals scored per match across years in the tournament.
 
-    - The per tournament page displays the host country, the top teams according to total goals scored, and a map showing the distribution of matches with a tooltip listing the matches and scores.
-    - There are evidences of homecourt advantage in some years. For instances, in the 1950 world cup, Brazil was the host country and is also the team that scored the most goals (25), with Uruguay following next (15).
+- The total tournaments measure is used as part of the analysis for validating where there is an advantage of the host team. 
+- Total host wins is only 28.6%, suggesting some advantage.
+- Germany had the most number of finals appearances (8), followed by Brazil and Italy (6).
+- Teams score the most goals during the 1954 tournament.
+- Note that in 1958, it was the only time where there were 4 teams that entered the final round which was played like the "Group stage" mechanic. Here, Brazil won by the most wins in that group round, therefore Brazil was recorded with 7 finals appearances in Wikipedia, contrary to 6 in this dashboard.
+- Note that due to the data design, goal records are stored row by row in a table, therefore using the goals table for analysis will not reflect matches with 0 goals.
+- There is a slight decreasing trend of the number of goals scored per match across years in the tournament.
+- The per tournament page displays the host country, the top teams according to total goals scored, and a map showing the distribution of matches with a tooltip listing the matches and scores.
+- There are evidences of homecourt advantage in some years. For instances, in the 1950 world cup, Brazil was the host country and is also the team that scored the most goals (25), with Uruguay following next (15).
