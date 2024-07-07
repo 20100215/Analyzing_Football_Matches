@@ -71,10 +71,10 @@ Steps executed:
     - Line and stacked column chart for Total Goals and Avg Goals Per Game by year
 
 Insights:
+
     - Dashboard is able to:
         - summarize cumulative statistics (games played, wins, losses, draws, tournament appearances, win rate) for a team, filterable by team, debut, and best results.
         - Analyze trends for total and average goals as well as number of matches and match attendance by year, filterbale by round mode and whether the matches involved the hosting team or not.
-
     - Teams with smaller win rate show an increasing trend of goals conceded, suggesting that they might lack defensive capabilities, regardless of the number of goals they have scored on their own.
     - Germany is the most participative team with 14 tournaments, while 7 teams only had 1 participation.
     - More matches playing as the years progress, from just 4-5 matches in the 1960s to 51 in 2024. In 1968, there are 5 games as opposed to 4 games in the past 2 and next 2 tournaments, this is because there was no penalties back then and the final game was replayed. 1980 was the year group stages are introduced, allowing more games to exist.
