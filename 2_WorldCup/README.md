@@ -50,6 +50,10 @@ Steps executed:
     - Map for number of matches per city. Change the map style to light. Add category labels to show the city names.
         - Create a tooltip that will be used in the map bubbles. Add a new page and in the canvas settings, set type to tooltip. Add card for city name then add a table showing match names and the calculated column for final score.
         - Apply the tooltip in the map visual.
+6. Dashboard Enhancements
+    - Page navigator
+        - Apply and style the navigator: Make the grid style vertical and enlarge the font sizes.
+
 
 Insights:
     - The total tournaments measure is used as part of the analysis for validating where there is an advantage of the host team. 
