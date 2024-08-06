@@ -14,12 +14,13 @@ For starters: [Read here](https://medium.com/geekculture/what-is-the-importance-
 
 1. [UEFA Matches Analysis](https://github.com/20100215/Power_BI_Analytics_Showcase/tree/main/01.%20Analyzing%20UEFA%20Matches)
 2. [World Cup Matches Analysis](https://github.com/20100215/Power_BI_Analytics_Showcase/tree/main/02.%20Analyzing%20World%20Cup%20Matches)
-3. Superstore E-commerce Analysis (Posting soon)
-4. Hospitality Analysis (Posting soon)
-5. Human Resource Analysis (Posting soon)
-6. Coffee Shop Analysis (with PostgreSQL) (Posting soon)
-7. Massachussets General Hospital Dashboard (Posting soon)
-8. National Rail UK Exploratory Dashboard (Posting soon)
+3. Palestine Conflict Analysis (Posting soon)
+4. Superstore E-commerce Analysis (Posting soon)
+5. Hospitality Analysis (Posting soon)
+6. Human Resource Analysis (Posting soon)
+7. Coffee Shop Analysis (with PostgreSQL) (Posting soon)
+8. Massachussets General Hospital Dashboard (Posting soon)
+9. National Rail UK Exploratory Dashboard (Posting soon)
 
 Feel free to click any of the projects to see dashboard snapshots and summary of insights! :)
 
